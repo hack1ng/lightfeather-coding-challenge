@@ -1,0 +1,12 @@
+.centered {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    min-width: 50em;
+    justify-content: center;
+}
+
+.input-box {
+    min-width: 25em;
+}
