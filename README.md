@@ -30,7 +30,7 @@ Steps to run:
 1. Post a request to http://localhost:23456/api/encode with JSON object to receive an encoded message.
 
 ## Question 2 - Web Component
-This solution was built using React + Material UI framework.
+This solution was built using React + Material UI framework. While an entire react app is a bit heavier than necessary for this challenge, I approached it as a real world problem with additional extendability in mind. 
 
 The following assumptions were made:
 * Submit button does not do anything when enabled and clicked on. 
