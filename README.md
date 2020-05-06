@@ -1,6 +1,21 @@
 # lightfeather-coding-challenge
 This coding challenge is for the Lightfeather application process. 
 
+# Requirements
+- Node 8
+- Git
+
+# Setup
+Clone the repo and install the dependencies.
+
+```
+git clone https://github.com/rking8888/lightfeather-coding-challenge  
+cd lightfeather-coding-challenge
+```
+```
+npm install
+```
+
 ## Question 1 - Webserver
 This solution was built using Express, a Node.js framework.
 
@@ -23,5 +38,6 @@ The following assumptions were made:
 
 Steps to run:
 1. Navigate to **client/** folder.
+1. `npm install` to install additional dependencies
 1. Run `npm start`
 1. Go to http://localhost:3000 to view web component
