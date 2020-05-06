@@ -45,7 +45,7 @@ export class RegisterForm extends React.Component {
         if(name === "username") {
             this.usernameRef.current.validate(value, true);
         } else if(name === "email") {
-            this.emailRef.current.validate(value);
+            this.emailRef.current.validate(value, true);
         } else if(name === "password") {
             this.passwordRef.current.validate(value, true);
         } else if(name === "repeatPassword") {
